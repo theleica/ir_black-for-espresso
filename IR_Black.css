@@ -17,7 +17,7 @@ tag, source, sourcecode {
 tag, tag > string > punctuation {
 	oldcolor: #8FCFFF;
 	lessoldcolor: #9FDFFF;
-	color: #5FAFEF;
+	color: #;
 }
 
 tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
@@ -83,11 +83,6 @@ string.quoted > punctuation {
 	color: #e69a4c;
 }
 
-string.quoted > escape {
-	font-weight: bold;
-	background-color: rgba(251,233,173,0.8);
-}
-
 variable {
 	color: #7b8c4d;
 }
@@ -110,11 +105,6 @@ support.function, function-call {
 
 keyword.control, storage.type {
 	color: #6700b9;
-}
-
-function > name {
-	color: #3a1d72;
-	font-weight: bold;
 }
 
 constant.numeric, constant.language {
@@ -176,11 +166,15 @@ string.quoted.single.js {
 	color: #ffa1ca;
 }
 
+constant.character.escape.js {
+	color: #ffa1ca;
+}
+
 /* CSS
 ------------------------------------------------------------- */
 
 selector.css { 
-    color: #96cbf3;
+    color: #62b1fe;
 }
 
 css property-list > property-value { color:#f9ee98; }
@@ -193,7 +187,7 @@ keyword.definition.php {
 	color: #fff;
 }
 
-keyword.control.flow {
+keyword.control.flow, keyword.control.include {
 	color: #96c8d1;
 }
 
