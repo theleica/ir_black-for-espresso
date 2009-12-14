@@ -188,7 +188,7 @@ keyword.definition.php {
 }
 
 keyword.control.flow, keyword.control.include {
-	color: #96c8d1;
+	color: #96cafe;
 }
 
 delimiter.balanced.parenthesis.begin,
@@ -206,6 +206,30 @@ literal.string.quoted, literal.numeric {
 
 operator {
 	color: #fff;
+}
+
+support.function.misc.css {
+    color: #96cafe;
+}
+
+punctuation.section.function.css {
+    color: #fff;
+}
+
+variable.parameter {
+    color: #c6c5fe;
+}
+
+zkeyword.other.zunit.css {
+    color: #96cafe;
+}
+
+zconstant.nzumeric.css, string.quoted.double {
+    color: #ee9fd3;
+}
+
+zconstant.zother.color.css {
+    color: #99cc99;
 }
 
 identifier.function.support_mysql > delimiter.balanced.parenthesis.begin, identifier.function.support.math > delimiter.balanced.parenthesis.begin {
